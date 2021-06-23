@@ -1,0 +1,9 @@
+
+c
+java:S2583"CChange this condition so that it does not always evaluate to "true"(›ªùõùÿÿÿÿ8íÚ¼İ‘/
+F
+java:S1948"&Make "root" transient or serializable.(‰Ö€ûÿÿÿÿ8óÚ¼İ‘/
+S	java:S106"9Replace this use of System.out or System.err by a logger.(û‹ı¾8÷Ú¼İ‘/
+R
+java:S1117"7Rename "root" which hides the field declared at line 9.(ÿÙüÓ8÷Ú¼İ‘/
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Á‹Íö8ùÚ¼İ‘/

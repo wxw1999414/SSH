@@ -1,0 +1,7 @@
+
+ƒ
+java:S13197"mThe return type of this method should be an interface such as "Map" rather than the implementation "HashMap".(Ğ÷ï
+
+java:S1319;"kThe type of the "map" object should be an interface such as "Map" rather than the implementation "HashMap".(¼±ôä
+]
+java:S1854";Remove this useless assignment to local variable "sumPage".(Ï«Ÿùÿÿÿÿ8ÔÁÓè‘/

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+        "http://struts.apache.org/dtds/struts-2.5.dtd">
+<struts>
+    <!--    开启动态代理-->
+    <constant name="struts.enable.DynamicMethodInvocation" value="true"/>
+    <!--设置开发模式-->
+    <constant name="struts.devMode" value="true"/>
+    <!--    设置编码格式-->
+    <constant name="struts.i18n.encoding" value="UTF-8"/>
+    <!--    及时编译-->
+    <constant name="struts.configuration.xml.reload" value="true"/>
+    <!--    设置是否每次HTTP请求到达时，系统都重新加载资源文件-->
+    <constant name="struts.i18n.reload" value="true" />
+    <!--    配置消息转换器-->
+    <constant name="struts.custom.i18n.resources" value="true"/>
+    <!--    设置主题风格 -->
+    <constant name="struts.ui.theme" value="simple"/>
+    <!-- 修改文件上传的限制大小，单位：字节byte -->
+    <!-- 修改大小为50M -->
+    <constant name="struts.multipart.maxSize" value="52428800"/>
+
+
+    <package name="pack" extends="struts-default" namespace="/" strict-method-invocation="false">
+        <!--设置白名单-->
+        <!--通配符方式调用也需要开启动态方法调用和设置白名单-->
+        <global-allowed-methods>regex:.*</global-allowed-methods>
+        <action name="user_*" class="com.actions.LoginAction" method="{1}">
+            <result name="success">/success.jsp</result>
+            <result name="error">/error.jsp</result>
+        </action>
+<!--        <action name="student_*" class="com.actions.PageAction" method="{1}">-->
+<!--            <result name="success">/pageFind.jsp</result>-->
+<!--        </action>-->
+    </package>
+</struts>

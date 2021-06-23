@@ -1,0 +1,28 @@
+
+`
+java:S2095+"EUse try-with-resources or close this "Session" in a "finally" clause.(ºî“âúÿÿÿÿ
+J
+java:S3740"/Provide the parametrized type for this generic.(»¯ãßúÿÿÿÿ
+L
+java:S3740("/Provide the parametrized type for this generic.(‡Û³¦8ŒåÇ’/
+J
+java:S3740)"/Provide the parametrized type for this generic.(­×µ«şÿÿÿÿ
+J
+java:S3740)"/Provide the parametrized type for this generic.(­×µ«şÿÿÿÿ
+J
+java:S3740-"/Provide the parametrized type for this generic.(ÓúÂ‚şÿÿÿÿ
+~
+java:S14880"\Immediately return this expression instead of assigning it to the temporary variable "list".(åìõÍüÿÿÿÿ8Ü²Ê’/
+O
+java:S1128"2Remove this unused import 'java.sql.SQLException'.(ÛïÆŸ8•ß’/
+N
+java:S1128"3Remove this unused import 'java.util.ListIterator'.(õ¥æÊşÿÿÿÿ
+P
+java:S1128".Remove this unused import 'java.util.HashMap'.(™˜”€ùÿÿÿÿ8ìÒÉ’/
+M
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8¼¶Ş’/
+S	java:S106 "9Replace this use of System.out or System.err by a logger.(³ğ¸ûÿÿÿÿ
+Q
+java:S1854,"6Remove this useless assignment to local variable "ts".(Ÿÿ´¯şÿÿÿÿ
+B
+java:S1481,"'Remove this unused "ts" local variable.(Ÿÿ´¯şÿÿÿÿ
